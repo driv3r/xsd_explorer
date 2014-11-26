@@ -1,6 +1,8 @@
 # XsdExplorer
 
 [![Build Status](https://travis-ci.org/driv3r/xsd_explorer.svg)](https://travis-ci.org/driv3r/xsd_explorer)
+[![Coverage Status](https://img.shields.io/coveralls/driv3r/xsd_explorer.svg)](https://coveralls.io/r/driv3r/xsd_explorer)
+[![Code Climate](https://codeclimate.com/github/driv3r/xsd_explorer/badges/gpa.svg)](https://codeclimate.com/github/driv3r/xsd_explorer)
 
 XML Schema explorer in ruby - generate classes like RXSD gem and draw a proper graph from them.
 Try to build ActiveRecord like associations to prevent classes duplication, and to build proper model diagrams with ruby-graphviz.

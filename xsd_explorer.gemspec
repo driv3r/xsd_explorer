@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = XsdExplorer::VERSION
   spec.authors       = ["Leszek Zalewski"]
   spec.email         = ["leszek.zalewski@zalesz.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{XML Schema definition relations explorer.}
+  spec.description   = %q{XML Schema explorer in ruby - generate classes like RXSD gem and draw a proper graph from them. Try to build ActiveRecord like associations to prevent classes duplication, and to build proper model diagrams with ruby-graphviz.}
+  spec.homepage      = "https://github.com/driv3r/xsd_explorer"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
